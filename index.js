@@ -11,7 +11,9 @@ const User = require("./models/user");
 const Post = require("./models/posts");
 const Comment = require("./models/comments");
 
-const DB_URL = "mongodb://127.0.0.1:27017/"; //mongodb+srv://kartikajmera890:kartik123456@anchors.1jtf6q1.mongodb.net/?retryWrites=true&w=majority
+// "mongodb://127.0.0.1:27017/"
+
+const DB_URL ="mongodb+srv://kartikajmera890:kartik123456@anchors.1jtf6q1.mongodb.net/?retryWrites=true&w=majority"
 
 mongoose
   .connect(DB_URL)
