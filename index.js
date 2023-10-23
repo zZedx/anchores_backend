@@ -97,6 +97,6 @@ app.post("/addComment", async (req, res) => {
   console.log(post);
   res.json();
 });
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log("Listening");
 });
