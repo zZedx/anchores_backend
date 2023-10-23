@@ -7,7 +7,7 @@ const User = require('./models/user');
 const Post = require('./models/posts');
 const Comment = require('./models/comments');
 
-mongoose.connect('mongodb://127.0.0.1:27017/anchors')
+mongoose.connect('mongodb+srv://kartikajmera890:kartik123@anchors.1jtf6q1.mongodb.net/?retryWrites=true&w=majority')
 .then(()=>{
     console.log('Mongoose Running')
 })
